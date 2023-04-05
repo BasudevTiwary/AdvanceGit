@@ -1,0 +1,4 @@
+started new feature
+working on new feature
+fixing bug
+feature work completed
