@@ -1,0 +1,3 @@
+[submodule "CarRentalSrpingBootApp"]
+	path = CarRentalSrpingBootApp
+	url = https://github.com/BasudevTiwary/CarRentalSrpingBootApp.git
