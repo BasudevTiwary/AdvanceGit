@@ -1,5 +1,5 @@
-1 first I created a repository in github as gitProject1.
-2 cloned the respository using( $ git clone https://github.com/BasudevTiwary/gitPrject1.git ).
+1 first I created a repository in github as advanceGit.
+2 cloned the respository using( $ git clone https://github.com/BasudevTiwary/advanceGit.git ).
 3 created a dev branch and switched to that using( $ git checkout -b dev) .
 4 created an index.html file in project directory and added some html code to it.
 5 stagged ($git add .) and commited ($git commit -m"message") the changed in this index.html file in dev branch with message "initiat commit in dev". 
