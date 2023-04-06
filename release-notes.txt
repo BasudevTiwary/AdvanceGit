@@ -1,7 +1,19 @@
-#this is the latest version v1.0
 
-#changes made
+#Release Notes
 
-# added feature 1
-# added feature 2
-# added hotfix1
+#version v1.0
+
+#New Features
+
+1 added feature 1
+2 added feature 2
+3 added hotfix1
+
+#Enhancement made
+
+1 done rebasing for linear commit.
+2 created new remote as rebase-branch.
+
+#Bug Fix
+
+1 solved merge conflict in hotfix
