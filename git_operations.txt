@@ -16,7 +16,7 @@
 16 switched back to dev branch ($git checkout dev) and merged to feature-2 branch($git merge feature-2).
 17 created a branch hotfix staged and commited the changed in index.html file merged to main branch and pushed to  github
 18 created a release-notes.txt file and merge it with the main branch and push it to github.
-19 created a tag v1.0 for specific commit with commit SHA 9ce8962 by using ($ git tag -a v1.0 80f7554 -m"this is version v1.0")
+19 created a tag v1.0 for specific commit with commit SHA 9ce8962 by using ($ git tag -a v1.0 9ce8962 -m"this is version v1.0")
 20 added tag to remote github using ($git push origin v1.0)
 21 used git submodule for employe_management  ($git submodule add employe_management  git repo url).
 22 and then changed the directory to employe_management  folder to pull the latest version ($git pull origin master)
