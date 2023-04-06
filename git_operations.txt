@@ -1,0 +1,30 @@
+1 first I created a repository in github as gitProject1.
+2 cloned the respository using( $ git clone https://github.com/BasudevTiwary/gitPrject1.git ).
+3 created a dev branch and switched to that using( $ git checkout -b dev) .
+4 created an index.html file in project directory and added some html code to it.
+5 stagged ($git add .) and commited ($git commit -m"message") the changed in this index.html file in dev branch with message "initiat commit in dev". 
+6 Switched back to main branch ($git checkout main) and merge dev to main using ($ git merge dev) .
+7 pushed the changes to the main branch on git hub using( $ git push -u origin main ).
+8 created a new branch called feature-1 ($git checkout -b feature-1).
+9 edited index.html file and added a new line as this is feature 1 branch.
+10 stagged and commited the changes in feature-1 branch using ($git add . and git commit -m"message".
+11 switched back to dev branch ($git checkout dev) and merged to feature-1 branch($git merge feature-1).
+12 pushed to github on dev branch using ($git push origin dev).
+13 created a new branch called feature-2 ($git checkout -b feature-2).
+14 edited index.html file and added a new line as this is feature 2 branch.
+15 stagged and commited the changes in feature-2 branch using ($git add . and git commit -m"message").
+16 switched back to dev branch ($git checkout dev) and merged to feature-2 branch($git merge feature-2).
+17 created a branch hotfix staged and commited the changed in index.html file merged to main branch and pushed to  github
+18 created a release-notes.txt file and merge it with the main branch and push it to github.
+19 created a tag v1.0 for specific commit with commit SHA 9ce8962 by using ($ git tag -a v1.0 80f7554 -m"this is version v1.0")
+20 added tag to remote github using ($git push origin v1.0)
+21 used git submodule for employe_management  ($git submodule add employe_management  git repo url).
+22 and then changed the directory to employe_management  folder to pull the latest version ($git pull origin master)
+23 once I got the lates the version of employe_management  I added to stagged  and then commited the file 
+24 after commited I pushed to github repository ($git push).
+25 I have used pre-commit and post-commit hooks by creating hook files and script as "I am pre-commit" and "I  am post-commit"
+26 I have used touch command for creating hook files then I have used nano editor for scripting .
+27 then I have maked script file excutable by write chmod +x pre-commit and then post-commit
+28 then I moved to my working directory and did commit and script got appear.
+29 Done rebasing to rewrite commit history in a branch (rebase-branch).
+30 Created a remote (rebase-branch) and push it to github.
